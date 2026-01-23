@@ -1,0 +1,16 @@
+body {
+    --itchio_font_family: Domine;
+    --itchio_gray_back: #3e3b42;
+    --itchio_border_radius: 16px;
+
+    --itchio_text_color: #FAF3E1;
+    --itchio_link_color: #FA8112;
+    --itchio_background_color: #222222;
+    --itchio_font_size: 128%;
+
+    font-size: var(--itchio_font_size);
+    padding-inline: 16px;
+    font-family: Domine, Lato, LatoExtended, sans-serif;
+    color: var(--itchio_text_color);
+    background-color: var(--itchio_background_color);
+}

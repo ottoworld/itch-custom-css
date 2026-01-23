@@ -1,0 +1,45 @@
+.user_page {
+    --custom-color-background: #222222;
+    --custom-color-primary: #FAF3E1;
+    --custom-color-secondary: #F5E7C6;
+    --custom-color-feature: #FA8112;
+}
+
+a {
+    color: var(--itchio_link_color);
+}
+
+table {
+    width: 100%;
+    border-spacing: 16px;
+    table-layout: auto;
+}
+
+td:nth-child(2) {
+    display: none;
+}
+
+blockquote {
+    color: var(--custom-color-secondary);
+    border-color: var(--itchio_link_color);
+    border-left: solid var(--itchio_link_color);
+    padding-left: 8px;
+    margin-left: 16px;
+}
+
+@media (width > 650px) {
+    blockquote {
+        padding-left: 16px;
+        margin-left: 24px;
+    }
+}
+
+@media (width > 800px) {
+
+}
+
+@media (width > 1024px) {
+    td:nth-child(2) {
+        display: table-cell;
+    }
+}
