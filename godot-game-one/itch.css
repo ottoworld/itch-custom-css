@@ -5,7 +5,7 @@ body {
 
     --itchio_text_color: #444444;
     --itchio_link_color: #0484d1;
-    --itchio_background_color: #cc6844;
+    --itchio_background_color: #537c78;
     --itchio_font_size: 128%;
 
     font-size: var(--itchio_font_size);
